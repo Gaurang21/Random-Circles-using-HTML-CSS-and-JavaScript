@@ -1,0 +1,56 @@
+#controlPanel{
+  display: grid;
+  grid-template-columns: 100px 80px auto;
+  grid-column-gap: 50px;
+  grid-row-gap: 20px;
+  align-content: center;
+  box-sizing: border-box;
+  max-width: 600px;
+}
+#svgDraw{
+  box-sizing: border-box;
+  max-width: 550px;
+}
+#button_c,#button_s
+{
+  background-color: red;
+  font-style: oblique;
+  font: bold;
+}
+#clr
+{
+  background-color: yellow;
+  font-style: oblique;
+  font: bold;
+}
+#opac
+{
+  background-color: blue;
+}
+legend
+{
+  color: green;
+  font-family: serif;
+}
+fieldset
+{
+  border-color: red;
+  border-style: groove;
+}
+label{
+  color: blue;
+  font-style: oblique;
+}
+body{
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  font-display: block;
+}
+#font
+{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}

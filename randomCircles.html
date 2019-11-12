@@ -1,0 +1,34 @@
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Random Drawing</title>
+    <script src="drawing.js"></script>
+    <link rel="stylesheet" href="drawing.css" />
+</head>
+<body>
+  <h1 id="font">Random Drawing Fun!</h1>
+  <h2 id="font">Brought to you by zs9267 </h2>
+  <fieldset>
+  <legend>Control Panel</legend>
+  <section id="controlPanel">
+
+  <label>No of Circles</label><input type="number" id="no_c" min="1" max="20">
+  <input type="button" name="button" id="button_c" value="Add circles">
+  <label>No of Squares</label><input type="number" id="no_s" min="1" max="20">
+  <input type="button" name="button" id="button_s" value="Add squares">
+  <label>Opacity</label><input type="range" id="opac" min="1" max="10" onchange="changeOpacity()">
+  <input type="button" id="clr" value="Clear" onclick="clear_scr()">
+  <br></br>
+  </section>
+  </fieldset>
+  <br>
+  <fieldset>
+    <legend>Drawing</legend>
+    <section id="drawing">
+    <svg id="svgDraw" width="800" height="500" xmlns="http://www.w3.org/2000/svg">
+    </svg>
+    </section>
+  </fieldset>
+
+</body>
+</html>
